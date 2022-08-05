@@ -12,7 +12,7 @@ module.exports = function towelSort(matrix) {
         } else if (x && matrix) {
             arr.push(...matrix[i].reverse());
             x = false;
-        } 
+        }
     }
     return arr;
 };
